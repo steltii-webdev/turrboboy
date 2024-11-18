@@ -6,7 +6,7 @@ using online_store_app.Services;
 var builder = WebApplication.CreateBuilder(args);
 
 // Configure the connection string
-var connectionString = builder.Configuration.GetConnectionString("production")
+var connectionString = builder.Configuration.GetConnectionString("test_laptop")
                        ?? throw new InvalidOperationException("Connection string not found.");
 
 // Add services to the container.
